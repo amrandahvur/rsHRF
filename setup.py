@@ -32,7 +32,7 @@ setup(
     entry_points={
         "console_scripts": ['rsHRF = rsHRF.CLI:main']
     },
-    version=version,
+    version=VERSION,
     description="BIDs App to retrieve the haemodynamic response function from resting state fMRI data",
     license="MIT",
     long_description=long_description,
