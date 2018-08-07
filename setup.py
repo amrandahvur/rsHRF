@@ -3,7 +3,7 @@ import os
 import sys
 from setuptools import setup, find_packages
 
-version = re.search(
+VERSION = re.search(
     '^__version__\s*=\s*"(.*)"',
     open('rsHRF/CLI.py').read(),
     re.M
