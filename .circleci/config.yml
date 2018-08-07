@@ -55,7 +55,6 @@ jobs:
           command: |
             docker build -t madhurtandon23/rshrf:$CIRCLE_TAG .
             docker login -u $DOCKER_USER -p $DOCKER_PASS
-            docker tag madhurtandon23/rshrf madhurtandon23/rshrf:$CIRCLE_TAG
             docker push madhurtandon23/rshrf:$CIRCLE_TAG
 
 workflows:
